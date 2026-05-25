@@ -8,47 +8,298 @@
 
 <body>
 
-<div class="osn">
-
-    <img src="cartinka/im.jfif" class="avatar">
-
-    <h2 class="bio_text">Моя автобиография</h2>
-
-    <div class="card">
-        <div class="info">
-            <p>Уланбеков Чингиз</p>
-            <p>18 лет</p>
-            <p>Keiin колледж - 3 курс</p>
-            <p>Увлечения: Dota 2</p>
-        </div>
-
-        <a href="https://www.youtube.com/watch?v=W9RCD7gML8o" class="song" target="_blank">
-            🎵 music
-        </a>
-
-        <div class="bom">
-            <p>лошадка игогоигого</p>
-        </div>
-
+    <div class="sidebar">
+    
+        <h2 class="logo">MyBio</h2>
+    
+        <button onclick="showSection('about')">Обо мне</button>
+    
+        <button onclick="showSection('anime')">Аниме</button>
+    
+        <button onclick="showSection('todo')">To Do</button>
+    
+        <button onclick="showSection('contact')">Contact Me</button>
+    
     </div>
+    
+    <div class="content">
+    
+        <!-- ABOUT -->
+    
+        <div id="about" class="section active">
+    
+            <img src="cartinka/im.jfif" class="avatar">
+    
+            <h2 class="bio_text">Моя автобиография</h2>
+    
+            <div class="card">
+    
+                <div class="info">
+                    <p>Уланбеков Чингиз</p>
+                    <p>18 лет</p>
+                    <p>Keiin колледж - 3 курс</p>
+                    <p>Увлечения: Dota 2</p>
+                </div>
+    
+                <a href="https://www.youtube.com/watch?v=W9RCD7gML8o"
+                   class="song"
+                   target="_blank">
+    
+                   🎵 music
+    
+                </a>
+    
+                <div class="bom">
+                    <p>лошадка игогоигого</p>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+        <!-- ANIME -->
+    
+        <div id="anime" class="section">
+    
+            <div class="card">
+    
+                <h2>Люблю аниме</h2>
+    
+                <p>
+                    Мой любимый жанр — драма,
+                    фэнтези и приключения.
+                </p>
+    
+                <ul class="anime-list">
+                    <li>Noragami</li>
+                    <li>To Your Eternity</li>
+                    <li>Vinland Saga</li>
+                </ul>
+    
+            </div>
+    
+        </div>
+    
+        <!-- TODO -->
+    
+        <div id="todo" class="section">
+    
+            <div class="card">
+    
+                <h2>📅 May 2026</h2>
+    
+                <div class="calendar">
 
-</div>
-<div class="card">
-    <div class="info">
-
-        <h3>Люблю аниме</h3>
-        <p>Мой любимый жанр - драма, фэнтези и приключения.</p>
-        <p>Мне нравятся глубокие сюжеты, сильные персонажи и эмоциональная атмосфера.</p>
-
-        <ul class="anime-list">
-            <li>Бездомный Бог (Noragami)</li>
-            <li>Для тебя, Бессмертный (To Your Eternity)</li>
-            <li>Сага о Винланде (Vinland Saga)</li>
-        </ul>
-
+                    <div>
+                        <h3>1</h3>
+                        <p>Сдал домашку</p>
+                    </div>
+                
+                    <div>
+                        <h3>2</h3>
+                        <p>Играл Dota 2</p>
+                    </div>
+                
+                    <div>
+                        <h3>3</h3>
+                        <p>Смотрел аниме</p>
+                    </div>
+                
+                    <div>
+                        <h3>4</h3>
+                        <p>Практика по HTML</p>
+                    </div>
+                
+                    <div>
+                        <h3>5</h3>
+                        <p>Пары в колледже</p>
+                    </div>
+                
+                    <div>
+                        <h3>6</h3>
+                        <p>Сделал CSS</p>
+                    </div>
+                
+                    <div>
+                        <h3>7</h3>
+                        <p>Отдых</p>
+                    </div>
+                
+                    <div>
+                        <h3>8</h3>
+                        <p>Играл с друзьями</p>
+                    </div>
+                
+                    <div>
+                        <h3>9</h3>
+                        <p>Учился JS</p>
+                    </div>
+                
+                    <div>
+                        <h3>10</h3>
+                        <p>Смотрел Vinland Saga</p>
+                    </div>
+                
+                    <div>
+                        <h3>11</h3>
+                        <p>Делал проект</p>
+                    </div>
+                
+                    <div>
+                        <h3>12</h3>
+                        <p>Практика в колледже</p>
+                    </div>
+                
+                    <div>
+                        <h3>13</h3>
+                        <p>Гулял</p>
+                    </div>
+                
+                    <div>
+                        <h3>14</h3>
+                        <p>Сделал сайт</p>
+                    </div>
+                
+                    <div>
+                        <h3>15</h3>
+                        <p>Играл Dota 2</p>
+                    </div>
+                
+                    <div>
+                        <h3>16</h3>
+                        <p>Учился Flexbox</p>
+                    </div>
+                
+                    <div>
+                        <h3>17</h3>
+                        <p>Смотрел Noragami</p>
+                    </div>
+                
+                    <div>
+                        <h3>18</h3>
+                        <p>Колледж</p>
+                    </div>
+                
+                    <div>
+                        <h3>19</h3>
+                        <p>Делал адаптив</p>
+                    </div>
+                
+                    <div>
+                        <h3>20</h3>
+                        <p>Отдыхал</p>
+                    </div>
+                
+                    <div>
+                        <h3>21</h3>
+                        <p>Работал над bio</p>
+                    </div>
+                
+                    <div>
+                        <h3>22</h3>
+                        <p>Смотрел To Your Eternity</p>
+                    </div>
+                
+                    <div>
+                        <h3>23</h3>
+                        <p>Пил кофе ☕</p>
+                    </div>
+                
+                    <div>
+                        <h3>24</h3>
+                        <p>Играл ночью</p>
+                    </div>
+                
+                    <div>
+                        <h3>25</h3>
+                        <p></p>
+                    </div>
+                
+                    <div>
+                        <h3>26</h3>
+                        <p></p>
+                    </div>
+                
+                    <div>
+                        <h3>27</h3>
+                        <p></p>
+                    </div>
+                
+                    <div>
+                        <h3>28</h3>
+                        <p></p>
+                    </div>
+                
+                    <div>
+                        <h3>29</h3>
+                        <p></p>
+                    </div>
+                
+                    <div>
+                        <h3>30</h3>
+                        <p></p>
+                    </div>
+                
+                    <div>
+                        <h3>31</h3>
+                        <p></p>
+                    </div>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+        <!-- CONTACT -->
+    
+        <div id="contact" class="section">
+    
+            <div class="card">
+    
+                <h2>📩 Contact Me</h2>
+    
+                <form class="contact-form">
+    
+                    <input type="text"
+                           placeholder="Ваше ФИО">
+    
+                    <input type="email"
+                           placeholder="Ваш Email">
+    
+                    <textarea placeholder="Комментарий"></textarea>
+    
+                    <button type="submit">
+                        Отправить
+                    </button>
+    
+                </form>
+    
+            </div>
+    
+        </div>
+    
     </div>
-</div>
-
-</body>
+    
+    <script>
+    
+    function showSection(sectionId)
+    {
+        let sections =
+            document.querySelectorAll('.section');
+    
+        sections.forEach(section =>
+        {
+            section.classList.remove('active');
+        });
+    
+        document
+            .getElementById(sectionId)
+            .classList.add('active');
+    }
+    
+    </script>
+    
+    </body>
 </html>
 
